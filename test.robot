@@ -17,7 +17,7 @@ Set Input Value
 Set Password Value
     Execute JavaScript    document.querySelectorAll("input[type='password']")[0].value = 'Aurora123'
     sleep           3s 
-click button
-   Click Button       class=btn btn-primary btn-lg
+Click Login
+   Execute JavaScript    document.querySelectorAll("button[type='button']").click()
    Page Should Contain  
   
